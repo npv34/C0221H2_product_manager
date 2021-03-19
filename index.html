@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="menu"></div>
+    <div class="content">
+        <div class="add-product">
+            <table id="form-add-product">
+                <tr>
+                    <td>Name</td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><input id="price" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td><input id="total" type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button id="add-product" onclick="addProduct()">Add</button>
+                        <button id="edit-product" hidden onclick="editProduct()">Edit</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="list-product">
+            <table id="products">
+                <tr>
+                    <td>STT</td>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Total</td>
+                    <td></td>
+                </tr>
+                <tbody id="product-list">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="js/my.js"></script>
+</body>
+</html>

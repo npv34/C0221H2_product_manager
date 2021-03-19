@@ -1,0 +1,44 @@
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.content {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.add-product {
+    width: 40%;
+    height: 100%;
+    background-color: aquamarine;
+    float: left;
+}
+
+.list-product {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+#products {
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+}
+
+#form-add-product {
+    width: 100%;
+}
+
+#form-add-product input {
+    width: 95%;
+}
